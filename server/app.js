@@ -8,4 +8,5 @@ app.use(bodyParser.json());
 
 app.use('/api', require('./routes'))
 
-app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
+let server = app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
+module.exports = server
