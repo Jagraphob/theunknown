@@ -10,3 +10,4 @@ bld/
 [Oo]bj/
 
 node_modules
+server/app.config.js
